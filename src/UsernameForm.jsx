@@ -8,6 +8,7 @@ export default function UsernameForm () {
 
     return (
         <div>
+            <label htmlFor="username">Enter a </label>
             <input type="text" name="" id="" placeholder="username" value={username}
             onChange={updateUsername}/>
             <button>Submit</button>
